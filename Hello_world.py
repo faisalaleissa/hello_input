@@ -2,7 +2,7 @@ import numpy as np
 import sys
 def print_my_name(name):
 	#sys.stdout.write(name)
-	return name
+	print name
 
 listOfArguments = sys.argv[1:]
 Name = str(listOfArguments[0])
