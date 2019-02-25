@@ -4,6 +4,6 @@ entrypoint: Hello_world.py
 scripts:
   - pip install --no-cache-dir -r requirements.txt
 input:
-  - thename:string
+  - name:string
 output:
   - message:string
