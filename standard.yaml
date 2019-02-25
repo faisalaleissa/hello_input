@@ -1,7 +1,7 @@
 language: python
 version: 2.7
 entrypoint: Hello_world.py 
-script:
+scripts:
   - pip install --no-cache-dir -r requirements.txt
 input:
   - name:string
