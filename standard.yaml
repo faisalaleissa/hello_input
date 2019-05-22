@@ -6,4 +6,4 @@ scripts:
 input:
   - name:string
 output:
-  - message:string
+  - messages:string
